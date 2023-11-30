@@ -1,10 +1,11 @@
-
-
-export default function Categories() {
+const Categories = ()=> {
   return (
-    <div className="flex justify-between mx-10 my-5">
+    <div className="flex justify-between mx-10 my-5 items-center">
       <div className="text-4xl">Categories</div>
-      <div>View all Categories</div>
+      <div className="flex bg-green-300 p-2 rounded-xl text-[12px]">
+        View all Categories
+      </div>
     </div>
-  )
+  );
 }
+export default Categories

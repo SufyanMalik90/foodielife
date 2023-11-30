@@ -6,7 +6,7 @@ import '@fortawesome/fontawesome-free/css/all.css';
 
 const Navbar = () => {
   return (
-    <nav className="p-4 justify-around flex border-b-2">
+    <nav className="p-4 justify-around flex border-b-2 items-center">
         <div className="">
           <Link href="/" >
           <Image  src={Logo} width={100} height={100} alt='logo' className='h-14 w-14'/>
@@ -21,9 +21,11 @@ const Navbar = () => {
           <li>About us</li>
         </ul>
       </div>
+      <div className='flex gap-6'>
       <SocialIcon href="#" icon="facebook" />
       <SocialIcon href="#" icon="instagram" />
       <SocialIcon href="#" icon="x" />
+      </div>
     </nav>
   );
 };
@@ -31,7 +33,8 @@ const Navbar = () => {
 
 const SocialIcon = ({ href, icon }:any) => {
   return (
-    <a href={href} className=" hover:text-gray-300 ">
+    
+    <a href={href} className=" hover:text-gray-300">
       {/* Add your social media icons or use a library like react-icons */}
       {icon === 'facebook' && <i className="fab fa-facebook"></i>}
       {icon === 'instagram' && <i className="fab fa-instagram"></i>}
