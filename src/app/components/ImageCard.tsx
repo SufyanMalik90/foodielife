@@ -6,8 +6,8 @@ export function ImageCard({ imageUrl, title, gradientColor }: any) {
   };
 
   return (
-    <div className="w-36 rounded-2xl shadow-lg m-2 flex flex-col items-center" style={gradientStyle}>
-      <Image className="w-fit h-32 object-contain p-2" src={imageUrl} alt={title} />
+    <div className="w-44 rounded-[30px] shadow-lg m-2 flex flex-col items-center" style={gradientStyle}>
+      <Image className="w-fit h-28 object-contain p-2" src={imageUrl} alt={title} />
       <div className="px-4 py-4">
         <div className="font-bold text-sm mb-2">{title}</div>
       </div>

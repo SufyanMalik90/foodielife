@@ -13,7 +13,7 @@ const Navbar = () => {
           </Link>
         </div>
       <div>
-        <ul className="flex gap-x-5 text-black font-bold">
+        <ul className="flex gap-x-5 text-black text-[16px]">
           <li>Home</li>
           <li>Recipes</li>
           <li>Blog</li>
