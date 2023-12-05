@@ -14,11 +14,20 @@ const Navbar = () => {
         </div>
       <div>
         <ul className="flex gap-x-5 text-black text-[16px]">
-          <li>Home</li>
-          <li>Recipes</li>
-          <li>Blog</li>
-          <li>Contact</li>
-          <li>About us</li>
+          <li>
+            <Link href='/'>
+            Home
+            </Link>
+            </li>
+          <li>
+          <Link href='/recipes'>
+            Recipes</Link>
+            </li>
+          <li>
+          <Link href='/blog'>Blog</Link></li>
+          <li>
+          <Link href='/contact'>Contact</Link></li>
+          <li><Link href='/about'>About us</Link></li>
         </ul>
       </div>
       <div className='flex gap-6'>
