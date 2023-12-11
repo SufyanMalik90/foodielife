@@ -1,0 +1,39 @@
+[
+    {
+      "image": "RecipeCard1.png",
+      "name": "Delicious Pasta",
+      "duration": "30 minutes",
+      "category": "Snack"
+    },
+    {
+      "image": "fish.png",
+      "name": "Another Recipe",
+      "duration": "45 minutes",
+      "category": "Fish"
+    },
+    {
+      "image": "honey.png",
+      "name": "Another Recipe",
+      "duration": "45 minutes",
+      "category": "Breakfast"
+    },
+    {
+      "image": "healthy.png",
+      "name": "Another Recipe",
+      "duration": "45 minutes",
+      "category": "Breakfast"
+    },
+    {
+      "image": "meatImg.png",
+      "name": "Another Recipe",
+      "duration": "45 minutes",
+      "category": "Breakfast"
+    },
+    {
+      "image": "honey.png",
+      "name": "Another Recipe",
+      "duration": "45 minutes",
+      "category": "Breakfast"
+    }
+  ]
+  
