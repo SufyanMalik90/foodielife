@@ -10,15 +10,19 @@ import Section from "./components/Section";
 import RecipeCard from "./components/RecipeCard";
 import RecipeCard1 from "../../public/RecipeCard1.png";
 import Fish  from "../../public/fish.png";
+import Sweet  from "../../public/sweet.png";
 import Honey  from "../../public/honey.png";
 import Chef  from "../../public/chef.png";
+import meatImg  from "../../public/meatImg.png";
+import healthy  from "../../public/healthy.png";
 import TitleDescriptionImage from "./components/TitleDescriptionImage";
+import Feedback from "./components/Feedback";
 export default function Home() {
   return (
-    <>
-      <main className="">
+   
+      <main className="px-4">
         <Categories />
-        <div className="flex justify-around mx-4">
+        <div className="flex justify-around mx-4 flex-wrap">
           <ImageCard
             imageUrl={Cat}
             title="Breakfast"
@@ -59,31 +63,37 @@ export default function Home() {
             imageUrl={RecipeCard1}
             name="Delicious Pasta"
             duration="30 minutes"
+            categorie="Snack"
           />
           <RecipeCard
             imageUrl={Fish}
             name="Delicious Pasta"
             duration="30 minutes"
+            categorie="Fish"
           />
           <RecipeCard
             imageUrl={Honey}
             name="Delicious Pasta"
             duration="30 minutes"
+            categorie="Breakfast"
           />
           <RecipeCard
-            imageUrl={RecipeCard1}
+            imageUrl={healthy}
             name="Delicious Pasta"
             duration="30 minutes"
+            categorie="Healthy"
           />
           <RecipeCard
-            imageUrl={RecipeCard1}
+            imageUrl={meatImg}
             name="Delicious Pasta"
             duration="30 minutes"
+            categorie="Meat"
           />
           <RecipeCard
-            imageUrl={RecipeCard1}
+            imageUrl={Sweet}
             name="Delicious Pasta"
             duration="30 minutes"
+            categorie="Sweet"
           />
         </div>
         <div className="flex h-[597px] w-full">
@@ -91,13 +101,15 @@ export default function Home() {
             title="Everyone can be a chef in their own kitchen"
             description="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim "
             imageUrl={Chef}
+            btn_text={'Learn More'}
           />
         </div>
         <Section
           title="Check out @foodieland on Instagram"
           content="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim."
         />
+        <Feedback />
       </main>
-    </>
+   
   );
 }
