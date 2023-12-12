@@ -2,7 +2,7 @@ import Feedback from "../components/Feedback";
 const Blog = () => {
   return (
     <main className="mx-8">
-      <div className="flex flex-col items-center gap-4">
+      <div className="flex flex-col items-center gap-4 my-8">
         <div className="text-center text-black text-[64px] font-semibold font-['Inter']">
           Blog & Article
         </div>
