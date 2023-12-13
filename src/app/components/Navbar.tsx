@@ -8,6 +8,10 @@ import { Menu } from 'lucide-react';
 const Navbar = () => {
   return (
     <nav className="p-4 justify-around flex border-b-2 items-center">
+      <div className='flex md:hidden'>
+      <Menu/>
+
+      </div>
         <div className="">
           <Link href="/" >
           <Image  src={Logo} width={100} height={100} alt='logo' className='h-14 w-14'/>
