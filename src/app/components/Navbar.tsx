@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Logo from '../../../public/vercel.svg';
 import '@fortawesome/fontawesome-free/css/all.css'; 
+import { Menu } from 'lucide-react';
 
 const Navbar = () => {
   return (
